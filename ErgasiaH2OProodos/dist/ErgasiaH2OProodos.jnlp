@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ErgasiaH2OProodos.jnlp">
+  <information>
+    <title>ErgasiaH2OProodos</title>
+    <vendor>Apo P</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ErgasiaH2OProodos.jar" size="2387" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ErgasiaH2OProodos" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ergasiah2oproodos.ErgasiaH2OProodos"  name="ErgasiaH2OProodos" />
+  <update check="always"/>
+</jnlp>
